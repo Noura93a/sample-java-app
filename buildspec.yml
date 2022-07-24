@@ -31,7 +31,6 @@ reports:
       '**/target/surefire-reports/TEST-*.xml'
   base-directory: 'target/surefire-reports'
   discard-paths: no
-  file-format: JUNITXML
 artifacts:
   files:
     - ROOT.war
