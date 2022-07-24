@@ -28,7 +28,7 @@ phases:
     - echo Build ends on 'date'
 reports:
   files:
-    - '**/TEST-*.xml'
+    - '**/*'
   base-directory: 'target/surefire-reports'
   discard-paths: no
   file-format: JUNITXML
