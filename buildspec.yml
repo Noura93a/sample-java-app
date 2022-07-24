@@ -29,7 +29,7 @@ phases:
 reports:
   files:
       '**/target/surefire-reports/TEST-*.xml'
-  discard-paths: no
+  discard-paths: false
 artifacts:
   files:
     - ROOT.war
