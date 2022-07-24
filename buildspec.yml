@@ -27,10 +27,10 @@ phases:
     - mv target/*.war ROOT.war
     - echo Build ends on 'date'
 reports:
-    files:
-      - '**/target/surefire-reports/TEST-*.xml'
-    discard-paths: no 
-    file-format: JUNITXML
+  files:
+    - '**/target/surefire-reports/TEST-*.xml'
+  discard-paths: no 
+  file-format: JUNITXML
 artifacts:
   files:
     - ROOT.war
