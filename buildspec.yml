@@ -28,7 +28,7 @@ phases:
     - echo Build ends on 'date'
 reports:
   files: 
-    - gosecuri/target/surefire-reports/TEST-*.xml  
+      'gosecuri/target/surefire-reports/TEST-*.xml'  
   discard-paths: no
 artifacts:
   files:
