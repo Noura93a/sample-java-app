@@ -29,7 +29,6 @@ phases:
 reports:
   files:
       '**/target/surefire-reports/TEST-*.xml'
-  base-directory: 'target/surefire-reports'
   discard-paths: no
 artifacts:
   files:
