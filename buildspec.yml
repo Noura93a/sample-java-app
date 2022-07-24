@@ -27,8 +27,8 @@ phases:
     - mv target/*.war ROOT.war
     - echo Build ends on 'date'
 reports:
-  files: 
-      'gosecuri/target/surefire-reports/TEST-*.xml'  
+  files:
+    - 'gosecuri/target/surefire-reports/TEST-*.xml'
   discard-paths: no
 artifacts:
   files:
